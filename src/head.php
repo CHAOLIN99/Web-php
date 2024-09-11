@@ -11,7 +11,7 @@
       <header>
          <h1> Wei Cheng Chao</h1>
       </header>
-      <p >Brigham Young University -Hawaii Reaserch Assistant/ Teaching Assistant </p>
+      <h2>Reaserch Assistant/ Teaching Assistant </h2>
    
    <nav>
     <ul>
