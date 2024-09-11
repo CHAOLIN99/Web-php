@@ -1,28 +1,13 @@
-<h1> Hello from devcontainer-example!</h1>
-
-<p>It's not super exciting, but this is being served from the webserver 
-    container in our devcontainer.</p>
-
-<h2>Guestbook</h2>
-
-<table cellspacing="8">
-    <tr>
-        <th>Name</th>
-        <th>Visited</th>
-        <th>Note</th>
-    <tr>
-
-<?php
-$connection = mysqli_init();
-$connection->real_connect($_ENV["DATABASE_HOST"], $_ENV["DATABASE_USER"], $_ENV["DATABASE_PASSWORD"], $_ENV["DATABASE_DB"]);
-$result = mysqli_query($connection, "SELECT * FROM guestbook");
-while($row = mysqli_fetch_array($result)) {
-    print "<tr>";
-    print "<td>" . $row["visitor_name"] . "</td>";
-    print "<td>" . $row["created_at"] . "</td>";
-    print "<td>" . $row["note"] . "</td>";
-    print "</tr>";
-}
-$connection->close();
-?>
-</table>
+    <?php include("head.php"); //It use the header page instead of header code?>
+      <img class="img0" src="wei.jpg" alt="Wei's picture">
+      <div>
+         <button class ="button-89">who am I</button>
+      </div>
+      <div>
+         <p >Aloha! With a Bachelor of Science in Computer Science from Brigham Young University-Hawaii, I have honed my Python, Java, and C++ skills. My passion for coding ignited when I wrote my first lines of Python. Since then, I have developed robust software applications, conducted comprehensive literature reviews, and managed and analyzed vast datasets.
+            <br>As a research assistant, I have cultivated strong teamwork, communication, and leadership skills. Collaborating with professors and fellow researchers, I have led projects, ensuring effective communication and coordination among team members. I thrive in team environments, leveraging diverse perspectives to drive innovative solutions and achieve common goals.
+            <br>My specialties include rapid learning, innovative problem-solving, and a deep understanding of software development principles. I'm adept at coding, testing, and debugging, ensuring that every project is optimized for success. My toolbox includes Python, Java, C++, and various data analysis and visualization tools.
+         </p>
+      </div>
+    <?php include("foot.php"); //It use footer page instead of footer code ?>
+   
