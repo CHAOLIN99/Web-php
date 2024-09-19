@@ -22,5 +22,7 @@
     </ul>
    </nav>
 
-   <?php  $name = ''; echo "Welcome!".$_GET['name'] ;//please add your name in the URL by typeing ?name=your name ?>
+   <?php if(isset($_GET['name'])):?>
+      <?php echo "Welcome!".$_GET['name']; ?>
+   <?php endif;?>
    <main>
