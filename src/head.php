@@ -21,4 +21,6 @@
         <li class="button-30"><a href="contact.php">Contact</a></li>
     </ul>
    </nav>
+
+   <?php  $name = ''; echo "Welcome!".$_GET['name'] ;//please add your name in the URL by typeing ?name=your name ?>
    <main>

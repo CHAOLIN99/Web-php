@@ -1,6 +1,6 @@
 <?php include("head.php"); //It use the header page instead of header code
    $string = "Introduction"; ?>
-<?php  $name = ''; echo "Welcome!".$_GET['name'] ;//please add your name in the URL by typeing ?name=your name ?>
+
 <img class="img0" src="wei.jpg" alt="Wei's picture">
 <div>
    <button class ="button-89">who am I</button>
