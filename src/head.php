@@ -11,7 +11,7 @@
       <header>
          <h1> Wei Cheng Chao</h1>
       </header>
-      <h2>Reaserch Assistant/ Teaching Assistant </h2>
+     
    
    <nav>
     <ul>
@@ -19,6 +19,7 @@
         <li class="button-30"><a href="project.php">Project</a></li>
         <li class="button-30"><a href="research.php">Research</a></li>
         <li class="button-30"><a href="contact.php">Contact</a></li>
+        <li class="button-30"><a href="register.php">Register</a></li>
     </ul>
    </nav>
 
