@@ -55,9 +55,7 @@ h3 {
   background-color: #000;
 }
 
-input[type="text"],
-input[type="password"],
-select {
+.f_input {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -67,7 +65,7 @@ select {
   box-sizing: border-box;
 }
 
-input[type="submit"] {
+.submit {
   width: 100%;
   background-color: #4caf50;
   color: white;
@@ -78,7 +76,7 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-input[type="submit"]:hover {
+.submit:hover {
   background-color: #cdb476;
 }
 
@@ -88,17 +86,8 @@ div {
   padding: 20px;
 }
 
-.ah6 {
-  font-size: 20px;
-}
-
 p {
   font-size: 18px;
-}
-
-.olbox {
-  position: relative;
-  right: -350px;
 }
 
 .himg {
@@ -126,48 +115,6 @@ main {
   margin-left: auto;
   margin-right: auto;
   width: 40%;
-}
-
-.qcenter {
-  position: relative;
-  width: 400px;
-  text-align: center;
-  font-size: 18px;
-}
-
-.con {
-  position: relative;
-  top: 0%;
-  right: -270px;
-  width: 150px;
-  height: 5px;
-}
-
-/* Create three unequal columns that float next to each other */
-.column {
-  float: left;
-  padding: 10px;
-}
-
-/* Left and right column */
-.column.side {
-  width: 25%;
-}
-
-/* Middle column */
-.column.middle {
-  width: 50%;
-}
-
-/* Clear floats after the columns */
-.row::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.col {
-  font-size: 18px;
 }
 
 .button-30 {
