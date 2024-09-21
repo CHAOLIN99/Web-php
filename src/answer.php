@@ -1,6 +1,6 @@
 <?php include("head.php"); ?>
 
-<div>
+<div class="container icenter">
 
     <p>How do I check if the information in the form is correct before saving it to the database?</p>
     <ul>
@@ -14,7 +14,7 @@
 
 </div>
 
-<div>
+<div class="container icenter">
     <p>What do I do when the information isn't correct, and how do I let the user fix it?</p>
     <ul>
         <li>Show error messages:
@@ -24,7 +24,7 @@
     </ul>
 </div>
 
-<div>
+<div class="container icenter">
     <p>How would I create PHP pages for users to edit their account (like changing name, email, or password)?
     </p>
     <ul>
@@ -43,7 +43,7 @@
 
 </div>
 
-<div>
+<div class="container icenter">
     <p>What tools do I use to remember if a user has logged in?</p>
     <ol>
         <li>Cookies:
@@ -55,20 +55,18 @@
     </ol>
 </div>
 
-<div>
-    <p>What's the difference between cookies and sessions?
-    </p>
+<div class="container icenter">
+    <p>What's the difference between cookies and sessions?</p>
     <ol>
         <li>Cookies:
             Cookies store data in the user’s browser and persist across visits, but they are less secure because the data is stored client-side and can be manipulated.</li>
         <li>Sessions:
             Sessions store data on the server. Only a session ID is kept in the browser. This is more secure because the sensitive info stays server-side.
-
-            ƒ</li>
+        </li>
     </ol>
 </div>
 
-<div>
+<div class="container icenter">
     <p>How did the videos log someone in?</p>
     <ol>
         <li>Submit login form: The user enters their credentials (username and password).</li>
