@@ -13,13 +13,16 @@
       </header>
      
    
-   <nav>
+   <nav class="center">
     <ul>
         <li class="button-30"><a href="index.php">Main Page</a></li>
         <li class="button-30"><a href="project.php">Project</a></li>
         <li class="button-30"><a href="research.php">Research</a></li>
         <li class="button-30"><a href="contact.php">Contact</a></li>
         <li class="button-30"><a href="register.php">Register</a></li>
+        <li class="button-30"><a href="user.php">All users</a></li>
+        <li class="button-30"><a href="profile.php">Profile</a></li>
+        <li class="button-30"><a href="answer.php">Answer_Key</a></li>
     </ul>
    </nav>
 
